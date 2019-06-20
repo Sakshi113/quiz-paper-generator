@@ -1,0 +1,2 @@
+# quiz-paper-generator
+This project focuses on the generation of unique set of quiz papers for faculty members. Each faculty will contribute a set of questions for a subject to be stored in a centralized database system which will be then used by the software to generate different and unique sets of quiz papers.Reduces the workload on examiners by automating the manual question paper generation process .
