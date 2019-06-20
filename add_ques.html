@@ -1,0 +1,54 @@
+<doctype html!>
+<html>
+<head>
+<title>Add Questions </title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<form action="add_ques.php" method="post">
+<h4>Add Questions </h4> </br>
+<p5>Enter Question : </p5>
+ <textarea rows = "8" cols = "100" name = "question">
+            Enter details here...
+         </textarea> </br> </br>
+<p5>Choose subject : </p5>
+<select name = "sub">
+  <option value="4cs01">4cs01</option>
+  <option value="6cs01">6cs01</option>
+  <option value="6ec01">6ec01</option>
+</select>
+<p5>Choose Marks : </p5>
+<select name = "marks">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+</select>
+<p5>Choose Module : </p5>
+<select name = "module">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+</select>
+<p5>Is diagram(1 for yes/0 for no): </p5>
+<select name = "diag">
+  <option value="0">0</option>
+  <option value="1">1</option>
+  
+</select>
+<p5>Enter Scheduled Date : </p5>
+<input type="date" name = "date" class = "box"/ > </br> </br>
+<hr>
+<div id="buttonzone">
+
+    <input type="submit" value="Enter" >
+    
+   
+    <input type="reset" value="clear" >
+    
+</div>
+
+</form>
+</body>
+</html>
